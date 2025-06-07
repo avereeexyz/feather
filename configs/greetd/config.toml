@@ -1,0 +1,2 @@
+command = "cosmic-comp /bin/cosmic-greeter"
+user = "cosmic-greeter"
