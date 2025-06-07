@@ -25,5 +25,8 @@ dnf5 install -y @cosmic-desktop-environment
 systemctl enable podman.socket
 
 # REALLy janky shit incoming!
+
+wget https://raw.githubusercontent.com/avereeexyz/feather/refs/heads/main/configs/greetd/config.toml -O /etc/greetd/config.toml
+
 systemctl disable sddm.service
 systemctl enable greetd.service
